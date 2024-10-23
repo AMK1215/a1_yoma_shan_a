@@ -14,7 +14,7 @@
     <style>
         /* Default styles (desktop view) */
         .login-page {
-            background-image: url(img/bg.jpg);
+            background-image: url(img/bg.png);
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
@@ -28,7 +28,7 @@
         @media (max-width: 768px) {
             .login-page {
                 background-size: cover;
-                background-image: url(img/mobile.jpg);
+                /* background-image: url(img/mobile.jpg); */
                 padding: 20px;
                 /* Add padding for smaller screens */
             }
@@ -40,7 +40,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <img src="{{ asset('img/logo_bg.png') }}" alt="" width="200px">
+            <img src="{{ asset('img/logo.png') }}" alt="" width="200px">
         </div>
         <div class="card">
             <div class="card-body login-card-body">
